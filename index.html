@@ -19,7 +19,10 @@
 <body>
     <nav>
         <div class="logo">Nanda Portofolio</div>
-        <div class="nav-links">
+        <a href="javascript:void(0)" class="nav" onclick="dropDown()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="nav-links" id="nav">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -31,7 +34,7 @@
     <main>
         <section id="profile">
             <div class="card">
-                <div class="profile-pic"><img src="img/39182315_1308499969284529_5540645005980336128_n.jpg"
+                <div class="profile-pic"><img src="img/39182315_1308499969284529_5540645005980336128_n.webp"
                         class="rounded-img" alt="Profile Picture"></div>
                 <div class="description">
                     <p class="text_1">Hello, I'm</p>
@@ -53,7 +56,7 @@
             <p>Here's something you should know</p>
             <h1>About Me</h1>
             <div class="section-container">
-                <div class="profile-pic"><img src="img/DSC_4921_ed__3x4_-removebg-preview.png" class="about-pic"
+                <div class="profile-pic"><img src="img/DSC_4921_ed__3x4_-removebg-preview.webp" class="about-pic"
                         alt="Another Profile Picture"></div>
                 <div class="about-details">
                     <div class="about-container">
@@ -126,13 +129,13 @@
             <h1>Project</h1>
             <div class="project-container">
                 <div class="slides fade">
-                    <img class="img-slides" src="img/Malang-page.png" alt="Web malang-page">
+                    <img class="img-slides" src="img/Malang-page.webp" alt="Web malang-page">
                     <div class="project-caption">
                         <p><a href="https://nandadimaz21.github.io/malang-page/" target="_blank">Visit</a></p>
                     </div>
                 </div>
                 <div class="slides fade">
-                    <img class="img-slides" src="img/freeCodeCamp-Survey.png" alt="Web freeCodeCamp-Survey">
+                    <img class="img-slides" src="img/freeCodeCamp-Survey.webp" alt="Web freeCodeCamp-Survey">
                     <div class="project-caption">
                         <p><a href="https://nandadimaz21.github.io/freeCodeCamp-Survey/ " target="_blank">Visit</a></p>
                     </div>
@@ -161,7 +164,7 @@
         </section>
     </main>
     <footer>
-        <nav>
+        <nav id="footer">
             <div class="nav-links">
                 <ul>
                     <li><a href="#about">About</a></li>

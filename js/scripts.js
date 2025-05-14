@@ -33,3 +33,13 @@ function showSlides(n) {
     }
     slider[slideIndex - 1].style.display = "block";
 }
+
+//Dropdown Menu
+function dropDown() {
+    var menu = document.getElementById("nav");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
